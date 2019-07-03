@@ -4,7 +4,7 @@
 
 from random import choices
 maior = menor = 0
-num = (choices(range(1,10),k=5))
+num = (choices(range(1, 10), k=5))
 print(f'Os números gerados foram {num}. \n')
 for i in range(0,len(num)):
     if i == 0:
@@ -19,10 +19,12 @@ print(f'O menor valor da lista é {menor}\n')
 
 print('#' * 50)
 print('\n')
+
+
 # Solução do professor (Ambas funcionando)
 
 from random import randint
-n = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
+n = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
 print(f'Eu sorteei os valores {n}')
 print(f'O maior valor sorteado foi {max(n)}')
 print(f'O menor valor sorteado foi {min(n)}')

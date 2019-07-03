@@ -3,6 +3,7 @@
 # | b - c | < a < b + c
 # | a - c | < b < a + c
 # | a - b | < c < a + b
+
 from math import fabs
 r1 = int(input('Digite a medida da primeira reta: '))
 r2 = int(input('Digite a medida da segunda reta: '))

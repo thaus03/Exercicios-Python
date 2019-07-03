@@ -6,4 +6,9 @@
 palavras = ('ORAEX', 'NOTEBOOK', 'AGUA')
 
 for i in palavras:
-    print(i.rfind())
+    print(f'\nNa palavra {i} temos as vogais ', end='')
+    for letra in i:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
+
+# ---------------------------------------------------------------

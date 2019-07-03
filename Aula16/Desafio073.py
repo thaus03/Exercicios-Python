@@ -6,9 +6,9 @@
 # C) Uma lista com os times em ordem alfabética
 # D) Em que posição na tabela está o time da Chapecoense.
 
-BrasileiroA = ('Palmeiras', 'Atlético-MG', 'Corinthians', 'São Paulo', 'Santos', 'Flamengo', 'Internacional', 'Bahia',
-               'Ceará', 'Goiás', 'Botafogo', 'Athletico-PR', 'Chapeconese', 'Fortaleza', 'Fluminense', 'Cruzeiro',
-               'CSA', 'Grêmio', 'Avaí', 'Vasco')
+BrasileiroA = ('Palmeiras', 'Santos', 'Flamengo', 'Internacional', 'Atlético-MG', 'Goiás', 'Botafogo', 'Bahia',
+               'São Paulo', 'Corinthians', 'Grêmio', 'Athletico-PR', 'Ceará', 'Fortaleza', 'Vasco',
+               'Fluminense', 'Chapeconese', 'Cruzeiro', 'CSA',  'Avaí')
 
 print('*' * 40)
 print('{:^40}'.format('TABELA DO BRASILEIRÃO 2019'))

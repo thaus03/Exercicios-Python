@@ -35,3 +35,9 @@ for cont in range(0, len(lanche)):
 print('#' * 40)
 for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida}l na posição {pos}')
+
+print(sorted(lanche))
+
+a = (5, 4, 2)
+b = (2, 5, 8, 10)
+print(a+b)
